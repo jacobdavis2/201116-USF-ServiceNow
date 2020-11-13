@@ -14,17 +14,17 @@ The software covered here includes:
 ## Git Bash
 Git is a version control management and source code management tool written by Linus Torvalds, the creator of Linux (hence the name). While a ton of time won't be spent on this topic, Git is still highly prevalent in the industry and exposure to it is always good. 
 
-If you want to experiment with Git alongside the instructor, you can download the bash here: https://git-scm.com/downloads
-You can make an account on GitHub to push to here: https://github.com/
+- If you want to experiment with Git alongside the instructor, you can download the bash here: https://git-scm.com/downloads
+- You can make an account on GitHub to push to here: https://github.com/
 
 ## Visual Studio Code
 VS Code is a popular lightweight IDE that is great for frontend programming thanks to its excellent IntelliSense (autocomplete). Don't get it confused with Visual Studio Community, which is a much heavier IDE for enterprise backend and app development in .NET.
 
 All HTML, CSS, JavaScript, and TypeScript will be edited in VSCode. 
-You can download it here: https://code.visualstudio.com/
+- You can download it here: https://code.visualstudio.com/
 
 ## NodeJS
 NodeJS is a runtime for JavaScript and has some other handy features, but that's not why we use it. It comes with a package manager, a tool that allows users to easily install other people's libraries, called **Node Package Manager**, or npm for short.
 
 The NodeJS install process is a bit lengthy, so if you only do one of these early, do this one. 
-You can initiate it here: https://nodejs.org/en/
+- You can initiate it here: https://nodejs.org/en/
