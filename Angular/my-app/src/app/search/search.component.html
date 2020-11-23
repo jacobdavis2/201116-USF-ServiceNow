@@ -9,3 +9,13 @@
     <p *ngSwitchCase="bob">Wow his name is actually Bob!</p>
     <p *ngSwitchCase="charlie">Oh, his name is Charlie.</p>
 </div>
+
+<br><br>
+
+<img [src]="myPath">
+<input type="button" (click)="toggleDogPic()" value="Toggle Dog">
+
+<br><br>
+
+<input type="text" placeholder="Write something..." [(ngModel)]="modelString">
+<input type="button" (click)="printModel()" value="Print Model">
