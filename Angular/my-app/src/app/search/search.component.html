@@ -1,0 +1,11 @@
+<p *ngIf="showItem">Hello, I see that you can see me!</p>
+<button type="button" (click)="toggleShowItem()">Toggle</button>
+
+<p *ngFor="let person of people">
+    {{ person.name }} was born in {{ person.birthMonth }}.
+</p>
+
+<div [ngSwitch]="people[0].name">
+    <p *ngSwitchCase="bob">Wow his name is actually Bob!</p>
+    <p *ngSwitchCase="charlie">Oh, his name is Charlie.</p>
+</div>
