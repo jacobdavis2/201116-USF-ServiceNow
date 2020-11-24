@@ -12,4 +12,7 @@ export class HelloComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  printEvent(event) {
+    console.log(event);
+  }
 }
