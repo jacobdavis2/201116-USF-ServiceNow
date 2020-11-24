@@ -1,0 +1,3 @@
+<div *ngFor="let city of airplanes.data.from" (click)="emit(city.name)">
+    <img> {{ city.name }}: {{ city.to.size }} flights
+</div>

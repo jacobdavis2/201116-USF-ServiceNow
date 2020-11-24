@@ -22,6 +22,7 @@ export class SearchComponent implements OnInit {
   ];
   public myPath: string = this.paths[0];
   public modelString: string = "";
+  public isChecked: boolean = false;
 
   constructor() { }
 
@@ -43,5 +44,6 @@ export class SearchComponent implements OnInit {
 
   printModel(): void {
     console.log("modelString: " + this.modelString);
+    console.log(this.isChecked);
   }
 }

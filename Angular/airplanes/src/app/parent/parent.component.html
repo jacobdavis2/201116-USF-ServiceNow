@@ -1,0 +1,6 @@
+<app-child (citySelected)="processCitySelect($event)"></app-child>
+<div>
+    {{ currentCity }} is selected.
+
+    <input type="button" value="Purchase Ticket" (click)="purchaseTicket()">
+</div>
